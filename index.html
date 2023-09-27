@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Download Icon</title>
+    <style>
+        .download {
+            /*border: 1px solid #ff6600;*/
+            padding: 20px;
+            font-family: arial;
+            transition: transform 0.3s ease;
+        }
+        
+        .download .icon .arrow {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            background-image: linear-gradient(
+                              90deg, 
+                              transparent 30%,
+                              #800000 30%,
+                              #800000 70%,
+                              transparent 70%
+                              ),
+                              conic-gradient(
+                                at center bottom,
+                                 #800000 0.125turn,
+                                 transparent 0.125turn 0.875turn,
+                                 #800000.825turn 0turn
+                                 );
+                                  
+             background-size: 100% 50%,
+                              100% 50%;  
+             background-repeat: no-repeat;  
+             background-position: center top,
+                                  center bottom;
+             margin-left: -36px;             
+            
+        }
+        .download .icon .cloud {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+
+            background-image: radial-gradient(circle, #ff8080 50%, transparent 50%),
+                              radial-gradient(ellipse, #ff8080 50%, transparent 50%),
+                              radial-gradient(ellipse, #ff8080 50%, transparent 50%);
+            background-size: 50% 50%,
+                             80% 50%,
+                             70% 50%;
+            background-repeat: repeat-x,
+                               no-repeat,
+                               no-repeat ;
+            background-position: left bottom,
+                                 center bottom,
+                                 center 70%;
+        }
+        .download a {
+            display: inline-block;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            color: #b34700;
+            margin-left: 20px;
+            transform: translateY(-10px);
+            transition: .5s;
+        }
+        .download:hover .icon .arrow {
+            animation: up-down 1s 3;
+        }
+        @keyframes up-down {
+            from { transform: translateY(0);}
+            to { transform: translateY(8px);}
+        }
+
+.download a:hover {
+  background-size: 100% 100%;
+  color: white;
+  font-size: 25px;
+}
+.download {
+  background-image: linear-gradient(#0afa66,#0afa66);
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: .5s;
+}
+.download:hover {
+    background-size: 100% 100%;
+}
+
+        
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis recusandae
+      molestiae aliquam quam rerum laudantium quibusdam sint libero, minima fuga
+      voluptatem illum itaque unde fugiat quasi beatae vel! Quia aut placeat
+      possimus sit perspiciatis cupiditate amet quos, earum distinctio quasi
+      saepe ab doloribus quae sed delectus neque quo commodi consectetur modi
+      necessitatibus ea eos magnam perferendis enim! Omnis repellat eveniet
+      molestiae id sapiente harum quam delectus deleniti aut inventore
+      necessitatibus nihil molestias reprehenderit libero minima illum
+      exercitationem soluta nostrum nisi, similique quisquam doloremque! Odit
+      natus, dolorum amet sapiente ex eum vero, voluptates voluptate, quos
+      provident magnam sit? Sapiente, architecto temporibus!
+    </p>
+    <div class="download">
+        <span class="icon">
+            <span class="cloud"></span>
+            <span class="arrow"></span>
+        </span>
+      <a href="manuals/html_tutorial.pdf" download>you can download the HTML manual here</a>
+    </div>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur
+    sapiente facilis est pariatur nostrum quas unde nisi iste officia quam
+    molestiae in veritatis deleniti, aspernatur praesentium voluptate id earum
+    at! Veniam fugit consectetur repudiandae recusandae iure similique deleniti
+    tempora? Accusamus, facilis architecto. Fugit illum harum vero! Perspiciatis
+    nisi at alias illo nemo, consequuntur adipisci non cupiditate magni
+    consequatur enim necessitatibus, ratione, et ex consectetur facilis
+    quibusdam corrupti natus earum quae. Sapiente cum, fugit, similique incidunt
+    aliquam neque quas quis nostrum illo illum perferendis. Tempora natus eum
+    cum necessitatibus voluptatibus hic, illum, aliquam assumenda quidem
+    accusamus totam alias fugiat? Alias, ullam.
+  </body></p>
+</html>
